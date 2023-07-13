@@ -29,6 +29,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 # SECURITY WARNING: keep the API key used in production secret!
 STRIPE_API_KEY = os.getenv("STRIPE_API_KEY")
 STRIPE_PUBLIC_KEY = os.getenv("STRIPE_PUBLIC_KEY")
+STRIPE_SIGNING_SECRET = os.getenv("STRIPE_SIGNING_SECRET")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
